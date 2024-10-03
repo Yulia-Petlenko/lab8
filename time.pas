@@ -4,6 +4,6 @@
 }
 begin
   var n:=ReadInteger('Введите год:');
-  if (n mod 4=0) and (n mod 100<>0) then print('Високосный')
-  else print('Не високосный');
+  if (n mod 4=0) and (n mod 100<>0) then print('Високосный и 366 дней')
+  else print('Не високосный и 365 дней');
 end.
